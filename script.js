@@ -48,7 +48,7 @@ function loadCSVData(file) {
                 }
 
                 // Apply bottom 'n' row styling, you can change the value of 'n'
-                const n = 5;
+                const n = 0;
                 if (index >= leaderboardData.length - n) {
                     row.classList.add('bottom-red');
                 }
